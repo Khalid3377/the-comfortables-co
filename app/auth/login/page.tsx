@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, KeyboardEvent, ClipboardEvent } from "react";
+import { useState, useRef, useEffect, Suspense, KeyboardEvent, ClipboardEvent } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -101,7 +101,7 @@ function OtpInput({ value, onChange }: { value: string; onChange: (v: string) =>
 }
 
 // ─── Main Component ───────────────────────────────────────────────────────────
-export default function LoginPage() {
+function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const redirectTo = searchParams.get("next") ?? searchParams.get("redirectTo") ?? "/account";
@@ -413,5 +413,21 @@ export default function LoginPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-[#FAFAF7] flex items-center justify-center p-4">
+          <div className="w-full max-w-md bg-white rounded-2xl shadow-sm border border-[#EAEAEA] p-8 text-center text-sm text-[#9CA3AF]">
+            Loading login...
+          </div>
+        </div>
+      }
+    >
+      <LoginForm />
+    </Suspense>
   );
 }
