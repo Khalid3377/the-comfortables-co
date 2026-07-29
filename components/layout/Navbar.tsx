@@ -85,10 +85,11 @@ export function Navbar({ products = [] }: { products?: Product[] }) {
           >
             <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-brand-border/80 bg-white p-0.5 shadow-soft transition group-hover:scale-105 dark:border-white/10">
               <Image
-                src="/logo.jpg"
+                src="/logo.jpeg"
                 alt="The Comfortables Co. Logo"
                 width={40}
                 height={40}
+                unoptimized
                 className="rounded-full object-contain"
               />
             </div>
