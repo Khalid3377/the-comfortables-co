@@ -1,0 +1,56 @@
+{
+  "announcementMessages": [
+    "COTTON × BAMBOO — OEKO-TEX CERTIFIED",
+    "30-DAY SOFTNESS GUARANTEE",
+    "MATERNITY • BABY • EVERYDAY",
+    "FREE SHIPPING OVER ₱1,999"
+  ],
+  "announcementSpeed": 28,
+  "heroTitle": "Comfort that cares.",
+  "heroSubtitle": "Premium Cotton × Bamboo apparel designed for breathable comfort, skin wellness, and sustainable living — made for maternity, baby and the slow life in between. ",
+  "comfortPromise": [
+    {
+      "title": "100% Thoughtfully Designed",
+      "text": "Every detail considered for your comfort and wellbeing."
+    },
+    {
+      "title": "Cotton × Bamboo Innovation",
+      "text": "Nature's finest fibers engineered for modern comfort."
+    },
+    {
+      "title": "Skin-Friendly Materials",
+      "text": "Hypoallergenic, OEKO-TEX certified, safe for all skin types."
+    },
+    {
+      "title": "Comfort-First Philosophy",
+      "text": "We never compromise comfort for anything else."
+    }
+  ],
+  "sustainabilityTimeline": [
+    {
+      "step": "Source",
+      "title": "Eco-Harvesting Stalks & Cotton",
+      "desc": "We harvest organic bamboo stalks and long-staple cotton from farms in India that prioritize soil health, zero pesticides, and closed-loop water conservation."
+    },
+    {
+      "step": "Spin",
+      "title": "Micro-Air-Channel Spinning",
+      "desc": "Fibers are combed together and spun into custom yarn structures featuring micro-gaps. This geometry allows the fabric to ventilate heat and repel dampness."
+    },
+    {
+      "step": "Knit",
+      "title": "Circular Tension Knitting",
+      "desc": "Knitted on specialized circular machines that tension the organic fibers to allow maximum natural stretch and recovery, without adding heavy synthetic elastanes."
+    },
+    {
+      "step": "Finish",
+      "title": "Organic Enzyme Washing",
+      "desc": "Washed with organic enzymes for skin-safe pH balance. We pre-shrink the material so the fit remains stable and smooth over dozens of wash cycles."
+    },
+    {
+      "step": "Wear-test",
+      "title": "Sensory Comfort Wear-Testing",
+      "desc": "Every batch is tested by eczema sufferers and sensory-sensitive wearers. We verify low friction levels on seams and test comfort during active, all-day motion."
+    }
+  ]
+}

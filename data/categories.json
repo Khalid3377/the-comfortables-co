@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "everyday-wear",
+    "name": "Everyday Wear",
+    "image": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=600&q=80",
+    "description": "Premium tees and structural basics designed for daily movement and breathable wear."
+  },
+  {
+    "slug": "lounge-wear",
+    "name": "Lounge Wear",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80",
+    "description": "Fluid, relaxed-fit layers created for slow weekends and work-from-home comfort."
+  },
+  {
+    "slug": "maternity-collection",
+    "name": "Maternity Collection",
+    "image": "https://images.unsplash.com/photo-1495385794356-15371f348c31?auto=format&fit=crop&w=600&q=80",
+    "description": "Adaptive, low-friction designs that stretch and support changing bodies gently."
+  },
+  {
+    "slug": "baby-collection",
+    "name": "Baby Collection",
+    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=600&q=80",
+    "description": "Hypoallergenic, thermoregulating onesies and coordinates for delicate skin."
+  },
+  {
+    "slug": "future-wellness-collection",
+    "name": "Future Wellness Collection",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+    "description": "Active recovery and rest wear utilizing advanced organic bamboo fiber structures."
+  }
+]

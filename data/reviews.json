@@ -1,0 +1,72 @@
+[
+  {
+    "id": "rev-1",
+    "productSlug": "cloud-knit-tee",
+    "productName": "CloudKnit Everyday Tee",
+    "name": "Anaya",
+    "rating": 5,
+    "text": "Soft enough for sensitive skin and structured enough for office days.",
+    "status": "approved",
+    "date": "2026-06-24"
+  },
+  {
+    "id": "rev-2",
+    "productSlug": "cloud-knit-tee",
+    "productName": "CloudKnit Everyday Tee",
+    "name": "Rohan",
+    "rating": 5,
+    "text": "The tee I keep reaching for after every wash.",
+    "status": "approved",
+    "date": "2026-06-25"
+  },
+  {
+    "id": "rev-3",
+    "productSlug": "bamboo-lounge-set",
+    "productName": "BambooFlow Lounge Set",
+    "name": "Meera",
+    "rating": 5,
+    "text": "It feels calm on the body. Exactly what maternity loungewear should feel like.",
+    "status": "approved",
+    "date": "2026-06-26"
+  },
+  {
+    "id": "rev-4",
+    "productSlug": "maternity-wrap-dress",
+    "productName": "Maternity Ease Wrap Dress",
+    "name": "Nisha",
+    "rating": 5,
+    "text": "Supportful without pressure, and beautiful enough for dinner.",
+    "status": "approved",
+    "date": "2026-06-27"
+  },
+  {
+    "id": "rev-5",
+    "productSlug": "baby-cloud-onesie",
+    "productName": "BabyCloud Onesie",
+    "name": "Aditi",
+    "rating": 5,
+    "text": "No irritation, no overheating, just a very happy baby.",
+    "status": "approved",
+    "date": "2026-06-28"
+  },
+  {
+    "id": "rev-6",
+    "productSlug": "cloud-knit-tee",
+    "productName": "CloudKnit Everyday Tee",
+    "name": "Karan",
+    "rating": 4,
+    "text": "Very comfortable but I wish they had a navy blue color option.",
+    "status": "pending",
+    "date": "2026-06-29"
+  },
+  {
+    "id": "rev-7",
+    "productSlug": "bamboo-lounge-set",
+    "productName": "BambooFlow Lounge Set",
+    "name": "Priya",
+    "rating": 5,
+    "text": "Absolutely love it, softest set I own. Worth every rupee!",
+    "status": "pending",
+    "date": "2026-06-29"
+  }
+]

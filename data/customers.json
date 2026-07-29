@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cust-1",
+    "name": "Aarav Sharma",
+    "email": "aarav@gmail.com",
+    "phone": "+91 98765 43210",
+    "createdAt": "2026-05-01T12:00:00Z",
+    "joinedAt": "2026-05-01T12:00:00Z"
+  },
+  {
+    "id": "cust-2",
+    "name": "Isha Patel",
+    "email": "isha.p@yahoo.com",
+    "phone": "+91 87654 32109",
+    "createdAt": "2026-05-10T14:30:00Z",
+    "joinedAt": "2026-05-10T14:30:00Z"
+  },
+  {
+    "id": "cust-3",
+    "name": "Vihaan Gupta",
+    "email": "vihaan.g@gmail.com",
+    "phone": "+91 76543 21098",
+    "createdAt": "2026-05-15T09:15:00Z",
+    "joinedAt": "2026-05-15T09:15:00Z"
+  },
+  {
+    "id": "cust-4",
+    "name": "Ananya Rao",
+    "email": "ananya.r@outlook.com",
+    "phone": "+91 95432 10987",
+    "createdAt": "2026-06-01T10:45:00Z",
+    "joinedAt": "2026-06-01T10:45:00Z"
+  },
+  {
+    "id": "cust-5",
+    "name": "Kabir Singh",
+    "email": "kabir.singh@gmail.com",
+    "phone": "+91 91234 56789",
+    "createdAt": "2026-06-10T16:20:00Z",
+    "joinedAt": "2026-06-10T16:20:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "code": "COMFORT10",
+    "type": "percentage",
+    "value": 10,
+    "usageLimit": 100,
+    "usageCount": 42,
+    "expiryDate": "2026-12-31",
+    "active": true
+  },
+  {
+    "code": "WELCOME15",
+    "type": "percentage",
+    "value": 15,
+    "usageLimit": 200,
+    "usageCount": 15,
+    "expiryDate": "2026-09-30",
+    "active": true
+  },
+  {
+    "code": "SOFT300",
+    "type": "fixed",
+    "value": 300,
+    "usageLimit": 50,
+    "usageCount": 12,
+    "expiryDate": "2026-08-15",
+    "active": true
+  },
+  {
+    "code": "BAMBOOFAN",
+    "type": "percentage",
+    "value": 20,
+    "usageLimit": 10,
+    "usageCount": 10,
+    "expiryDate": "2026-06-01",
+    "active": false
+  }
+]

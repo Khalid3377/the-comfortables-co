@@ -1,0 +1,163 @@
+[
+  {
+    "id": "ORD-9481",
+    "date": "2026-06-20T10:30:00Z",
+    "createdAt": "2026-06-20T10:30:00Z",
+    "customerName": "Aarav Sharma",
+    "customerEmail": "aarav@gmail.com",
+    "customerPhone": "+91 98765 43210",
+    "shippingAddress": "102, Shanti Kunj, Juhu, Mumbai, Maharashtra 400049",
+    "items": [
+      {
+        "productSlug": "cloud-knit-tee",
+        "productName": "CloudKnit Everyday Tee",
+        "quantity": 2,
+        "price": 1890,
+        "size": "M",
+        "color": "Eucalyptus"
+      }
+    ],
+    "subtotal": 3780,
+    "discount": 378,
+    "total": 3402,
+    "status": "delivered",
+    "paymentStatus": "Paid",
+    "fulfillmentStatus": "Delivered",
+    "discountCode": "COMFORT10"
+  },
+  {
+    "id": "ORD-9482",
+    "date": "2026-06-22T15:45:00Z",
+    "createdAt": "2026-06-22T15:45:00Z",
+    "customerName": "Isha Patel",
+    "customerEmail": "isha.p@yahoo.com",
+    "customerPhone": "+91 87654 32109",
+    "shippingAddress": "Flat 4B, Eden Gardens, Kolkata, West Bengal 700021",
+    "items": [
+      {
+        "productSlug": "bamboo-lounge-set",
+        "productName": "BambooFlow Lounge Set",
+        "quantity": 1,
+        "price": 4290,
+        "size": "S",
+        "color": "Sage"
+      }
+    ],
+    "subtotal": 4290,
+    "discount": 0,
+    "total": 4290,
+    "status": "delivered",
+    "paymentStatus": "Paid",
+    "fulfillmentStatus": "Delivered"
+  },
+  {
+    "id": "ORD-9483",
+    "date": "2026-06-25T11:20:00Z",
+    "createdAt": "2026-06-25T11:20:00Z",
+    "customerName": "Vihaan Gupta",
+    "customerEmail": "vihaan.g@gmail.com",
+    "customerPhone": "+91 76543 21098",
+    "shippingAddress": "54, Double Road, Indiranagar, Bengaluru, Karnataka 560038",
+    "items": [
+      {
+        "productSlug": "cloud-knit-tee",
+        "productName": "CloudKnit Everyday Tee",
+        "quantity": 1,
+        "price": 1890,
+        "size": "L",
+        "color": "Charcoal"
+      },
+      {
+        "productSlug": "baby-cloud-onesie",
+        "productName": "BabyCloud Onesie",
+        "quantity": 2,
+        "price": 1490,
+        "size": "3-6M",
+        "color": "Mint"
+      }
+    ],
+    "subtotal": 4870,
+    "discount": 0,
+    "total": 4870,
+    "status": "shipped",
+    "paymentStatus": "Paid",
+    "fulfillmentStatus": "Shipped"
+  },
+  {
+    "id": "ORD-9484",
+    "date": "2026-06-27T09:10:00Z",
+    "createdAt": "2026-06-27T09:10:00Z",
+    "customerName": "Ananya Rao",
+    "customerEmail": "ananya.r@outlook.com",
+    "customerPhone": "+91 95432 10987",
+    "shippingAddress": "A-12, Sector 15, Noida, Uttar Pradesh 201301",
+    "items": [
+      {
+        "productSlug": "maternity-wrap-dress",
+        "productName": "Maternity Ease Wrap Dress",
+        "quantity": 1,
+        "price": 3890,
+        "size": "M",
+        "color": "Clay"
+      }
+    ],
+    "subtotal": 3890,
+    "discount": 583.5,
+    "total": 3306.5,
+    "status": "processing",
+    "paymentStatus": "Paid",
+    "fulfillmentStatus": "Unfulfilled",
+    "discountCode": "WELCOME15"
+  },
+  {
+    "id": "ORD-9485",
+    "date": "2026-06-28T16:00:00Z",
+    "createdAt": "2026-06-28T16:00:00Z",
+    "customerName": "Kabir Singh",
+    "customerEmail": "kabir.singh@gmail.com",
+    "customerPhone": "+91 91234 56789",
+    "shippingAddress": "Plot 89, Gachibowli, Hyderabad, Telangana 500032",
+    "items": [
+      {
+        "productSlug": "cloud-knit-tee",
+        "productName": "CloudKnit Everyday Tee",
+        "quantity": 1,
+        "price": 1890,
+        "size": "XL",
+        "color": "Ivory"
+      }
+    ],
+    "subtotal": 1890,
+    "discount": 0,
+    "total": 1890,
+    "status": "pending",
+    "paymentStatus": "Pending",
+    "fulfillmentStatus": "Unfulfilled"
+  },
+  {
+    "id": "ORD-9486",
+    "date": "2026-06-29T11:45:00Z",
+    "createdAt": "2026-06-29T11:45:00Z",
+    "customerName": "Isha Patel",
+    "customerEmail": "isha.p@yahoo.com",
+    "customerPhone": "+91 87654 32109",
+    "shippingAddress": "Flat 4B, Eden Gardens, Kolkata, West Bengal 700021",
+    "items": [
+      {
+        "productSlug": "baby-cloud-onesie",
+        "productName": "BabyCloud Onesie",
+        "quantity": 1,
+        "price": 1490,
+        "size": "0-3M",
+        "color": "Milk"
+      }
+    ],
+    "subtotal": 1490,
+    "discount": 300,
+    "total": 1190,
+    "status": "pending",
+    "paymentStatus": "Pending",
+    "fulfillmentStatus": "Unfulfilled",
+    "discountCode": "SOFT300"
+  }
+]

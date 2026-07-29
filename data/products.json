@@ -1,0 +1,261 @@
+[
+  {
+    "slug": "cloud-knit-tee",
+    "name": "CloudKnit Everyday Tee",
+    "category": "Everyday Wear",
+    "collection": "Core Comfort",
+    "price": 1890,
+    "colors": [
+      "Eucalyptus",
+      "Ivory",
+      "Charcoal"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "material": "68% cotton, 27% bamboo viscose, 5% elastane",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "description": "A breathable everyday tee with a cool hand feel, gentle stretch, and polished drape.",
+    "inventory": 42,
+    "stockBySize": {
+      "XS": 12,
+      "S": 8,
+      "M": 3,
+      "L": 10,
+      "XL": 9
+    },
+    "scores": {
+      "comfort": 96,
+      "breathability": 94,
+      "softness": 98
+    },
+    "reviews": [
+      {
+        "name": "Anaya",
+        "rating": 5,
+        "text": "Soft enough for sensitive skin and structured enough for office days."
+      },
+      {
+        "name": "Rohan",
+        "rating": 5,
+        "text": "The tee I keep reaching after every wash."
+      }
+    ],
+    "published": true,
+    "badge": "BESTSELLER",
+    "rating": 4.8,
+    "reviewCount": 124,
+    "colorVariants": [
+      { "name": "Eucalyptus", "hex": "#2E6F68", "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" },
+      { "name": "Ivory", "hex": "#FAFAF7", "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=85" },
+      { "name": "Charcoal", "hex": "#2B2B2B", "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" }
+    ]
+  },
+  {
+    "slug": "bamboo-lounge-set",
+    "name": "BambooFlow Lounge Set",
+    "category": "Lounge Wear",
+    "collection": "At Home",
+    "price": 4290,
+    "colors": [
+      "Sage",
+      "Oat",
+      "Deep Teal"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "material": "62% bamboo viscose, 33% cotton, 5% elastane",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+      "https://images.unsplash.com/photo-1759229874786-6d0cc75d95be?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "description": "A fluid lounge set made for long flights, slow weekends, and work-from-home rituals.",
+    "inventory": 8,
+    "stockBySize": {
+      "XS": 2,
+      "S": 2,
+      "M": 2,
+      "L": 1,
+      "XL": 1
+    },
+    "scores": {
+      "comfort": 99,
+      "breathability": 92,
+      "softness": 97
+    },
+    "reviews": [
+      {
+        "name": "Meera",
+        "rating": 5,
+        "text": "It feels calm on the body. Exactly what maternity loungewear should feel like."
+      }
+    ],
+    "published": true,
+    "badge": "NEW",
+    "rating": 4.9,
+    "reviewCount": 86,
+    "colorVariants": [
+      { "name": "Sage", "hex": "#8FA382", "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80" },
+      { "name": "Oat", "hex": "#E6D8C5", "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80" },
+      { "name": "Deep Teal", "hex": "#1D4743", "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80" }
+    ]
+  },
+  {
+    "slug": "maternity-wrap-dress",
+    "name": "Maternity Ease Wrap Dress",
+    "category": "Maternity Collection",
+    "collection": "Motherhood",
+    "price": 3890,
+    "colors": [
+      "Sea Glass",
+      "Black",
+      "Clay"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "material": "64% cotton, 31% bamboo viscose, 5% elastane",
+    "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80",
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "description": "A gentle wrap silhouette with adaptive fit and moisture-aware comfort for changing bodies.",
+    "inventory": 17,
+    "stockBySize": {
+      "S": 5,
+      "M": 4,
+      "L": 2,
+      "XL": 6
+    },
+    "scores": {
+      "comfort": 98,
+      "breathability": 95,
+      "softness": 96
+    },
+    "reviews": [
+      {
+        "name": "Nisha",
+        "rating": 5,
+        "text": "Supportive without pressure, and beautiful enough for dinner."
+      }
+    ],
+    "published": true,
+    "badge": "ECO PICK",
+    "rating": 4.7,
+    "reviewCount": 54,
+    "stage": "second-trimester",
+    "colorVariants": [
+      { "name": "Sea Glass", "hex": "#A2C3BE", "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80" },
+      { "name": "Black", "hex": "#1A1A1A", "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80" },
+      { "name": "Clay", "hex": "#C58F7D", "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80" }
+    ]
+  },
+  {
+    "slug": "baby-cloud-onesie",
+    "name": "BabyCloud Onesie",
+    "category": "Baby Collection",
+    "collection": "Newborn",
+    "price": 1490,
+    "colors": [
+      "Milk",
+      "Mint",
+      "Moon"
+    ],
+    "sizes": [
+      "0-3M",
+      "3-6M",
+      "6-12M"
+    ],
+    "material": "70% cotton, 30% bamboo viscose",
+    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80",
+      "https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "description": "A delicate onesie built with skin-safe softness, breathable seams, and easy-change closures.",
+    "inventory": 64,
+    "stockBySize": {
+      "0-3M": 0,
+      "3-6M": 25,
+      "6-12M": 39
+    },
+    "scores": {
+      "comfort": 99,
+      "breathability": 96,
+      "softness": 99
+    },
+    "reviews": [
+      {
+        "name": "Aditi",
+        "rating": 5,
+        "text": "No irritation, no overheating, just a very happy baby."
+      }
+    ],
+    "published": true,
+    "badge": "SALE",
+    "salePrice": 1190,
+    "rating": 4.6,
+    "reviewCount": 167,
+    "ageRange": "0-6M",
+    "colorVariants": [
+      { "name": "Milk", "hex": "#F9F6F0", "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80" },
+      { "name": "Mint", "hex": "#E0ECE4", "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80" },
+      { "name": "Moon", "hex": "#D6D6D6", "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&q=80" }
+    ]
+  },
+  {
+    "slug": "babycloud-comfort-set",
+    "name": "BabyCloud Comfort Set",
+    "category": "Baby Collection",
+    "collection": "Newborn",
+    "price": 1290,
+    "colors": ["Cream", "Sage"],
+    "sizes": ["0-3M", "3-6M", "6-12M"],
+    "material": "70% cotton, 30% bamboo viscose",
+    "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=600&q=80"
+    ],
+    "description": "Ultra soft Cotton × Bamboo set for babies",
+    "inventory": 45,
+    "stockBySize": {
+      "0-3M": 15,
+      "3-6M": 15,
+      "6-12M": 15
+    },
+    "scores": {
+      "comfort": 98,
+      "breathability": 96,
+      "softness": 99
+    },
+    "reviews": [],
+    "published": true,
+    "badge": "NEW",
+    "rating": 4.7,
+    "reviewCount": 89,
+    "ageRange": "0-6M",
+    "colorVariants": [
+      { "name": "Cream", "hex": "#F5F0E8", "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=600&q=80" },
+      { "name": "Sage", "hex": "#87A878", "image": "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?w=600&q=80" }
+    ]
+  }
+]
