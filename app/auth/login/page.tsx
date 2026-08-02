@@ -145,12 +145,19 @@ function LoginForm() {
   const handleGoogleLogin = async () => {
     setStatus("loading");
     setMessage("");
+
+    // Dynamic redirect URL using window.location.origin with SSR safety guard
+    const origin = typeof window !== "undefined" ? window.location.origin : "";
+    const callbackPath = `/auth/callback?next=${encodeURIComponent(redirectTo)}`;
+    const redirectToUrl = origin ? `${origin}${callbackPath}` : callbackPath;
+
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(redirectTo)}`
-      }
+        redirectTo: redirectToUrl,
+      },
     });
+
     if (error) {
       setStatus("error");
       setMessage(error.message);
