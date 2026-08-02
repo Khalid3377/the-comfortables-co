@@ -115,9 +115,13 @@ export async function POST(request: NextRequest) {
 
     console.log(`Razorpay Webhook Event Received: ${event}`);
 
-    if (event === "payment.captured") {
-      const paymentEntity = payload.payload.payment.entity;
-      const orderId = paymentEntity.order_id as string;
+    if (event === "payment.captured" || event === "order.paid") {
+      const paymentEntity = payload.payload?.payment?.entity || payload.payload?.order?.entity;
+      if (!paymentEntity) {
+        console.error("WEBHOOK_PAYLOAD_ERROR: Missing payment/order entity in payload");
+        return NextResponse.json({ error: "Invalid event payload shape." }, { status: 400 });
+      }
+      const orderId = (paymentEntity.order_id || paymentEntity.id) as string;
       const amount = paymentEntity.amount / 100;
       const currency = paymentEntity.currency;
       const email = paymentEntity.email;
@@ -140,8 +144,21 @@ export async function POST(request: NextRequest) {
       const items = parseOrderItems(notes.items);
       const shippingAddress = parseShippingAddress(notes.shippingAddress);
 
+      // Extract internal order reference from Razorpay notes or receipt if present
+      const internalOrderNumber =
+        (notes.order_number as string) ||
+        (notes.internal_order_number as string) ||
+        (notes.order_id as string) ||
+        (notes.receipt as string) ||
+        (paymentEntity.receipt as string) ||
+        null;
+
+      const targetOrderRef = internalOrderNumber || orderId;
+
       console.log("Payment Captured Successfully:", {
         orderId,
+        internalOrderNumber,
+        targetOrderRef,
         paymentId: paymentEntity.id,
         amount,
         currency,
@@ -180,36 +197,50 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ error: "Payment is missing its authenticated customer." }, { status: 400 });
       }
 
+      // Attempt RPC finalization with target order reference (internal order_number or Razorpay order_id)
       const { data: recordedOrderId, error: recordError } = await supabaseAdmin.rpc(
         "finalize_razorpay_order",
         {
-          p_order_number: orderId || `order_${Date.now()}`,
+          p_order_number: targetOrderRef,
           p_items: items,
           p_payment_id: paymentEntity.id,
         }
       );
 
       if (recordError) {
-        console.error("ORDER_TRANSACTION_ERROR:", recordError);
-        return NextResponse.json({ error: "Unable to record order transaction." }, { status: 500 });
+        console.warn("ORDER_RPC_FINALIZATION_NOTICE:", recordError.message);
+      } else {
+        console.log("ORDER_TRANSACTION_RECORDED", {
+          orderId: recordedOrderId,
+          paymentId: paymentEntity.id,
+          customerId: internalCustomerId,
+          itemsCount: items.length,
+        });
       }
 
-      console.log("ORDER_TRANSACTION_RECORDED", {
-        orderId: recordedOrderId,
-        paymentId: paymentEntity.id,
-        customerId: internalCustomerId,
-        itemsCount: items.length,
-      });
+      // Explicitly update order status to 'paid' in Supabase matching internal order_number, Razorpay order_id, or payment_id
+      const filterConditions = [
+        `order_number.eq.${targetOrderRef}`,
+        `order_number.eq.${orderId}`,
+        `payment_id.eq.${paymentEntity.id}`,
+      ];
+      if (internalOrderNumber) {
+        filterConditions.unshift(`order_number.eq.${internalOrderNumber}`);
+      }
 
-      // Update order status to paid
       const { error: statusError } = await supabaseAdmin
         .from("orders")
-        .update({ status: "paid" })
-        .eq("order_number", orderId);
+        .update({
+          status: "paid",
+          payment_id: paymentEntity.id,
+          payment_method: "razorpay",
+        })
+        .or(filterConditions.join(","));
+
       if (statusError) {
         console.error("ORDER_STATUS_UPDATE_ERROR", statusError);
       } else {
-        // Revalidate the orders page for the user
+        console.log("ORDER_STATUS_UPDATED_TO_PAID", { targetOrderRef, paymentId: paymentEntity.id });
         revalidatePath("/account/orders");
       }
 
